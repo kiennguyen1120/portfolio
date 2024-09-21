@@ -2,7 +2,8 @@ import React from "react";
 import { Button } from "@/components/ui/button";
 import project1Image from "../assets/launching-your-ecommerce-business.png";
 import project2Image from "../assets/social_media_apps.png";
-import project3Image from "../assets/cocktail.jpg";
+import project3Image from "../assets/calendar-habit.png";
+import project4Image from "../assets/cocktail.jpg";
 
 export default function Projects() {
   const projects = [
@@ -17,18 +18,24 @@ export default function Projects() {
 
     {
       id: 2,
-      title: "Instagram Clone",
-      description: "social app uses react js and firebase",
+      title: "Social App",
+      description: "social media app uses firebase and react js",
       link: "https://chic-granita-804a0a.netlify.app/",
       image: project2Image,
     },
-
     {
       id: 3,
-      title: "Cocktail Mix",
-      description: "The project uses react js and unqlash api",
-      link: "https://inquisitive-begonia-993757.netlify.app/",
+      title: "Habit Tracker",
+      description: "The project uses react js",
+      link: "https://calendar-habit.netlify.app/",
       image: project3Image,
+    },
+    {
+      id: 4,
+      title: "Cocktail Mix",
+      description: "The project uses react js and unplash api",
+      link: "https://inquisitive-begonia-993757.netlify.app/",
+      image: project4Image,
     },
   ];
 
