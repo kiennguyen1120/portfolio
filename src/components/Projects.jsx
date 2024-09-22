@@ -3,7 +3,8 @@ import { Button } from "@/components/ui/button";
 import project1Image from "../assets/launching-your-ecommerce-business.png";
 import project2Image from "../assets/social_media_apps.png";
 import project3Image from "../assets/calendar-habit.png";
-import project4Image from "../assets/cocktail.jpg";
+import project5Image from "../assets/cocktail.jpg";
+import project4Image from "../assets/blog.jpg";
 
 export default function Projects() {
   const projects = [
@@ -32,10 +33,18 @@ export default function Projects() {
     },
     {
       id: 4,
-      title: "Cocktail Mix",
-      description: "The project uses react js and unplash api",
-      link: "https://inquisitive-begonia-993757.netlify.app/",
+      title: "Blogging",
+      description:
+        "The blog app project uses spring, mysql and react js (developing)",
+      link: "",
       image: project4Image,
+    },
+    {
+      id: 5,
+      title: "Cocktail Mix",
+      description: "The recipe cocktail app uses react js",
+      link: "https://inquisitive-begonia-993757.netlify.app/",
+      image: project5Image,
     },
   ];
 
