@@ -21,7 +21,7 @@ export default function Projects() {
       id: 2,
       title: "Social App",
       description: "social media app uses firebase and react js",
-      link: "https://chic-granita-804a0a.netlify.app/",
+      link: "https://justasocialapp.netlify.app/",
       image: project2Image,
     },
     {
